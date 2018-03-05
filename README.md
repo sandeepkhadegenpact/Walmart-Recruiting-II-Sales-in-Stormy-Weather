@@ -9,5 +9,4 @@ Setup
 put codes
 put the data from kaggle in data/ directory
 
-Usage
-run "WRSinSW.py"
+run "Wallmart.py"
