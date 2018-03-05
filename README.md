@@ -1,5 +1,5 @@
-code for the kaggle competition
-https://www.kaggle.com/c/walmart-recruiting-sales-in-stormy-weather
+code for the ML competition
+Assignment - https://www.kaggle.com/c/walmart-recruiting-sales-in-stormy-weather
 
 Requirements
 python, the data from kaggle
