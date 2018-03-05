@@ -1,4 +1,5 @@
-code for the ML competition
+Code for the ML competition
+
 Assignment - https://www.kaggle.com/c/walmart-recruiting-sales-in-stormy-weather
 
 Requirements
