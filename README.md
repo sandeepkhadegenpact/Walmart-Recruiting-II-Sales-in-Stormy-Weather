@@ -5,9 +5,9 @@ M - Missing Value
 57.8  for station 2
 73.7  for station 3
 etc
-.
-.
-.
+\n.
+\n.
+\n.
 
 
 
