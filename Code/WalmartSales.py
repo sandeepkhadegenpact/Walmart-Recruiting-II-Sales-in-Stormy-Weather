@@ -6,10 +6,9 @@ import csv
 from sklearn import datasets, linear_model
 from sklearn import svm
 
-path = 'C:\\Users\\ziaullhaq.s\\Desktop\\01042017\\Algebra\\ML\\Walmart\\Wallmart_ML\\Wallmart_ML\\'
 csv_database = create_engine('sqlite:///csv_database.db')
 
-trainData = pd.read_csv(path+'train.csv')
+trainData = pd.read_csv('https://github.com/sandeepkhadegenpact/Walmart-Recruiting-II-Sales-in-Stormy-Weather/blob/master/Data/train.csv')
 
 def createCsv(csv_file_name,csv_columns):
 	returnWriter=None
