@@ -5,8 +5,8 @@ from sklearn import svm
 from sklearn.cross_validation import train_test_split
 from sklearn.metrics import confusion_matrix
 
-x = pd.read_csv('https://raw.githubusercontent.com/sandeepkhadegenpact/Walmart-Recruiting-II-Sales-in-Stormy-Weather/master/Data/train.csv',usecols=['tmax', 'tmin','tavg','wetbulb','heat','cool','sealevel','station_number','store_nbr','item_nbr','stnpressure','resultspeed','sunrise', 'sunset','depart', 'dewpoint']);
-y = pd.read_csv('https://raw.githubusercontent.com/sandeepkhadegenpact/Walmart-Recruiting-II-Sales-in-Stormy-Weather/master/Data/train.csv',usecols=['units'])
+x = pd.read_csv('https://raw.githubusercontent.com/sandeepkhadegenpact/Walmart-Recruiting-II-Sales-in-Stormy-Weather/master/Data/train_logistic.csv',usecols=['tmax', 'tmin','tavg','wetbulb','heat','cool','sealevel','station_number','store_nbr','item_nbr','stnpressure','resultspeed','sunrise', 'sunset','depart', 'dewpoint']);
+y = pd.read_csv('https://raw.githubusercontent.com/sandeepkhadegenpact/Walmart-Recruiting-II-Sales-in-Stormy-Weather/master/Data/train_logistic.csv',usecols=['units'])
 y['units'] = np.log(y.units+1)
 
 X_train, X_test, y_train, y_test = train_test_split(x, y, random_state=0)
