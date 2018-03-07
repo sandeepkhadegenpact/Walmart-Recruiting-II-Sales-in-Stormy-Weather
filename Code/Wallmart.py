@@ -8,6 +8,11 @@ from sklearn.cross_validation import train_test_split
 
 data = pd.read_csv('https://raw.githubusercontent.com/sandeepkhadegenpact/Walmart-Recruiting-II-Sales-in-Stormy-Weather/master/Data/train.csv')
 
+x = pd.DataFrame(data,columns=['tmax', 'tmin','tavg','wetbulb','heat','cool','sealevel','station_number','store_nbr','item_nbr','stnpressure','resultspeed','sunrise', 'sunset','depart', 'dewpoint'])
+y = pd.DataFrame(data,columns=['units'])
+y['units'] = np.log(y.units+1)
+X_train, X_test, y_train, y_test = train_test_split(x, y, random_state=0)
+
 data = data.dropna()
 print(data.shape)
 print(list(data.columns))
