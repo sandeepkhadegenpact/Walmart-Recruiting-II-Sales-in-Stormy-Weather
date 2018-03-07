@@ -5,10 +5,9 @@ M - Missing Value
 57.8  for station 2
 73.7  for station 3
 etc
-\n.
-\n.
-\n.
-
+.
+.
+.
 
 
 T - TRACE : A 'trace' is when you can observe that some amount of rain or snow fell, but it was not enough to be measured using a rain gauge, snow stick, or any other weather instrument.
