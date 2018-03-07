@@ -16,6 +16,8 @@ regr = linear_model.LinearRegression()
 regr.fit(xMatrix, yMatrix)
 
 x_predict = X_test;
+print(x_predict)
+
 y_predict = regr.predict(x_predict)
 print(y_predict)
 
