@@ -9,4 +9,4 @@ Setup
 put codes
 put the data from kaggle in data/ directory
 
-run "Wallmart.py"
+run "Wallmart.py" for training data
